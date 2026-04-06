@@ -1,5 +1,6 @@
 *{
-    margin: 20px auto;
+    margin:  auto;
+    margin-top: 30px;
 }
 
 header{
@@ -14,7 +15,6 @@ nav{
     border:  3px solid #598527;
     width:  1166px;
     height: 111px;
-    margin: auto;
 }
 main{
      background-color: #ffc8ae;
@@ -22,22 +22,25 @@ main{
      width: 1264px;
      height:  679px;
      display: flex;
+     
 
 }
 article{
-    margin: 50PX;
     background-color: #DDDDDD;
-    border: 3PX solid #464646;
-    width: 980PX;
+    border: 3px solid #464646;
+    width: 980px;
     height: 561px;
+    margin-top: 50px;
+    margin-left: -50px;
+
    
 }
 section{
-     background-color:#ffc8ae;
-     border:  3px solid #464646;
-     width: 889 px;
+     background-color:#CCFFFF;
+     border:  3px solid #0F62A4;
+     width: 889px;
      height: 122px;
-     margin: auto;
+     
     
 }
 aside{
@@ -45,7 +48,9 @@ aside{
     border:3px solid #464646;
     width: 165px;
     height: 561px;
-    bord;
+    margin-top: 50px;
+    margin-left: -20px;
+    
     
 }
 footer{
@@ -54,15 +59,35 @@ footer{
     width: 1264px;
     height: 224px;
 }
-header >p{
-    background-color: #bd081c;
-    color: #fff;
-    width: 140px;
-    height: 38px;
-    font-size: 23.8px;
-    font-family: sans-serif ;
-    text-align: center;
-    margin-top: 3px;
-    margin-left:-3px;
+p{
+    color: #FFFFFF;
+    width: 100px;
+   height: 25px;
+    padding: 5px 0;
+    text-align: center ;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0;
 
 }
+header > p, main > p,
+footer > p {
+    background-color:
+    #bd081c
+}
+nav > P {background-color: #598527
+
+}
+article > p {
+    background-color: #464646;
+}
+aside > p  {
+    background-color:#464646;
+    width: 165px;
+}
+section > p {
+    background-color: #0F62A4;
+}
+
+    
+
